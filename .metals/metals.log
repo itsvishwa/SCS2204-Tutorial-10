@@ -1,0 +1,84 @@
+2023.08.28 19:48:30 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10' for client Visual Studio Code 1.81.1.
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\.metals\metals (H2 2.1)
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 28, 2023 7:48:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.027s)
+2023.08.28 19:48:31 INFO  time: initialize in 0.79s
+2023.08.28 19:48:38 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.28 19:48:40 INFO  time: code lens generation in 7.37s
+2023.08.28 19:48:40 INFO  Running List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10)
+2023.08.28 19:48:41 INFO  Attempting to connect to the build server...
+2023.08.28 19:48:41 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10)
+2023.08.28 19:48:40 WARN  No build session currently active to reload.
+2023.08.28 19:48:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.28 19:48:42 INFO  BSP server: Starting compilation server
+2023.08.28 19:48:49 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 19:48:49 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.28 19:48:49 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 19:48:49 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.28 19:48:49 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 19:48:49 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 19:48:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 19:48:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.28 19:48:51 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 19:48:51 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 19:48:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 19:48:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.28 19:48:52 INFO  time: Connected to build server in 11s
+2023.08.28 19:48:52 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.28 19:48:52 INFO  time: Imported build in 0.31s
+2023.08.28 19:48:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:48:55 INFO  time: indexed workspace in 2.51s
+2023.08.28 19:48:57 INFO  time: compiled project_bd2c96d2de in 3.88s
+2023.08.28 19:50:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:50:08 INFO  time: compiled project_bd2c96d2de in 0.83s
+2023.08.28 19:50:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:50:42 INFO  time: compiled project_bd2c96d2de in 1.91s
+2023.08.28 19:51:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:51:22 INFO  time: compiled project_bd2c96d2de in 1.66s
+2023.08.28 19:51:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:30 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:30 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 10\Question01.scala
+2023.08.28 19:51:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:51:34 INFO  time: compiled project_bd2c96d2de in 0.61s
+2023.08.28 19:53:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:53:51 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.28 19:54:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:54:10 INFO  time: compiled project_bd2c96d2de in 0.55s
+Aug 28, 2023 7:56:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 825
+2023.08.28 19:56:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:56:53 INFO  time: compiled project_bd2c96d2de in 0.63s
+2023.08.28 19:56:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:56:58 INFO  time: compiled project_bd2c96d2de in 0.47s
+2023.08.28 19:57:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:57:02 INFO  time: compiled project_bd2c96d2de in 0.5s
+2023.08.28 19:57:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.28 19:57:08 INFO  time: compiled project_bd2c96d2de in 0.46s
